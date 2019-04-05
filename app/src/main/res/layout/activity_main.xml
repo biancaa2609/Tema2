@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:padding="24dp">
+    <EditText
+        android:id="@+id/edit_word1"
+        style="@style/text_view_style"
+        android:hint="@string/hint_word1"
+        android:inputType="textAutoComplete"
+        android:importantForAutofill="no" />
+    <EditText
+        android:id="@+id/edit_word2"
+        style="@style/text_view_style"
+        android:hint="@string/hint_word2"
+        android:inputType="textAutoComplete"
+        android:importantForAutofill="no" />
+
+    <Button
+        android:id="@+id/button_add"
+        style="@style/button_style"
+        android:text="@string/button_add" />
+    <Button
+         android:id="@+id/button_delete"
+         style="@style/button_style"
+         android:text="Remove" />
+
+
+</LinearLayout>

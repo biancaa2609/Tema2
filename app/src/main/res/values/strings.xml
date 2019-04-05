@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Tema2</string>
+   <string name="hint_word1">First Name</string>
+    <string name="hint_word2">Last Name</string>
+
+    <string name="button_add">Add</string>
+    <string name="button_delete">Remove</string>
+</resources>
